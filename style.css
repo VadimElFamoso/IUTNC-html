@@ -1,0 +1,57 @@
+h1{
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
+
+h2{
+  color:black;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p{
+  text-align: center;
+}
+
+
+/*NAVBAR*/
+.navbar ul li{
+  display: inline;
+  padding: 15px;
+  background-color: red;
+}
+
+.navbar ul li:hover{
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  transition: 1s;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+
+ul, li, a{
+  text-align: center;
+  list-style-position: inside;
+}
+
+i:hover{
+  transform: rotate(360deg);
+  transition: 1s;
+}
